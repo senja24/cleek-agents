@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/OWNER",
   "identifier": "agent-template-full # same as your filename",
-  "locale": "zh-CN # you can set locale if you use other i18n language, default is en-US",
+  "locale": "en-US-CN # you can set locale if you use other i18n language, default is en-US",
   "meta": {
     "avatar": "🤯 emoji or logo url",
     "tags": ["tag1", "tag2"],

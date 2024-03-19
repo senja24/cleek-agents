@@ -8,7 +8,7 @@
   "homepage": "https://github.com/canisminor1990",
   "identifier": "bilibili-agent",
   "meta": {
-    "avatar": "https://bilibili.chat-plugin.lobehub.com/logo.webp",
+    "avatar": "https://bilibili.chat-plugin.cleek.id/logo.webp",
     "description": "Bilibili助手，擅长解析视频内容、生成格式良好的文本、回应用户查询和推荐最新视频。",
     "tags": ["视频评论", "弹幕提取", "bilibili", "哔哩哔哩", "视频搜索"],
     "title": "Bilibili 助手"

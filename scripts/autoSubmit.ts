@@ -15,8 +15,8 @@ const SUCCESS_LABEL = '✅ Auto Check Pass';
 const ERROR_LABEL = '🚨 Auto Check Fail';
 
 class AutoSubmit {
-  owner = 'lobehub';
-  repo = 'lobe-chat-agents';
+  owner = 'senja24';
+  repo = 'cleek-agents';
   issueNumber = Number(process.env.ISSUE_NUMBER);
   private octokit: Octokit;
 
@@ -96,8 +96,8 @@ class AutoSubmit {
 
   gitCommit(filePath, agent, agentName) {
     execSync('git diff');
-    execSync('git config --global user.name "lobehubbot"');
-    execSync('git config --global user.email "i@lobehub.com"');
+    execSync('git config --global user.name "senja24"');
+    execSync('git config --global user.email "ikaagus958@gmail.com"');
     execSync('git pull');
     execSync(`git checkout -b agent/${agentName}`);
     consola.info('Checkout branch');
